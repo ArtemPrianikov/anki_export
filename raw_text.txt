@@ -1,0 +1,852 @@
+statistics: statistical inference 
+methods for taking the results from a sample and generalizing them to make conclusions about an entire population 
+These two methods are confidence intervals and hypothesis tests. 
+
+statistics: observational study 
+An observational study is one in which data is collected on individuals in a way that doesn’t affect them. The most common observational study is the survey 
+
+statistics: Survey's problems:
+1. problems include improper wording of questions, which can be misleading
+2. lack of response by people who were selected to participate, or
+3. failure to include an entire group of the population 
+
+statistics:  experiment problems:
+researchers and/or subjects who know which treatment they got, factors not controlled for in the study that affect the outcome (such as weight of the subject when studying drug dosage), or lack of a control group (leaving no baseline to compare the results with). 
+
+statistics: Suppose Bob wants to know the opinions of people in your city regarding a pro- posed casino. Bob goes to the mall with his clipboard and asks people who walk by to give their opinions. What’s wrong with that? 
+Well, Bob is only going to get the opinions of a) people who shop at that mall; b) on that particular day; c) at that particular time; d) and who take the time to respond. 
+
+statistics: To minimize bias in a survey 
+You need to select your sample of individuals randomly — that is, with some type of “draw names out of a hat” process 
+
+statistics: Bias what is it?
+Bias is the systematic favoritism of certain individuals or certain responses 
+
+statistics: Statisticians describe data in two major ways:
+with numbers (called descriptive statistics) and with pictures (that is, charts and graphs) 
+
+statistics: Descriptive statistics with categorical data:
+If the data are categorical (where individuals are placed into groups, such as gender or political affiliation), they are typically
+1. summarized using the number of individuals in each group (called the frequency)
+2. or the percentage of individuals in each group (called the relative frequency) 
+
+statistics: Descriptive statistics with numercial data:
+With numerical data, more features can be summarized besides the number or percentage in each group. Some of these features include:
+- Measures of center (in other words, where is the “middle” of the data?) 
+- Measures of spread (how diverse or how concentrated are the data 
+  around the center?) 
+- If appropriate, numbers that measure the relationship between two variables (such as height and weight) 
+
+statistics: distribution:
+distribution is a listing of the possible values of a variable (or intervals of values), and how often (or at what density) they occur. For example, the distribution of gender at birth in the United States has been estimated at 52.4% male and 47.6% female. 
+
+statistics: t-distribution 
+If the variable is based on sample averages and you have limited data, such as in a test of only ten subjects to see if a weight-loss program works, the t-distribution may be in order. 
+
+statistics: common methods in introductory statistics 
+1. confidence intervals
+2. hypothesis tests
+3. correlation and regression
+4. and the analysis of two-way tables 
+
+statistics: margin of error 
+the level of precision in someone’s sample results 
+sample results vary from sample to sample, and this amount of variability needs to be reported  
+because you didn’t sample the entire population, a gap will exist between your results and the actual value you are trying to estimate for the population. 
+
+statistics: onfidence interval 
+result, in which you present your findings as a range of likely values (between 58% and 62% )
+
+statistics: hypothesis test 
+technique for using data to validate or invalidate a claim about a population 
+
+statistics: The elements about a population that are most often tested are 
+- The population mean (Is the average delivery time of 30 minutes really true?) 
+- The population proportion (Is it true that 80% of the voters support this 
+  candidate, or is it less than that?) 
+- The difference in two population means or proportions (Is it true that the average weight loss on this new program is 10 pounds more than the most popular program? Or, is it true that this drug decreases blood pressure by 10% more than the current drug?) 
+
+statistics: most common mistakes made in conclusions 
+1. overstating the results or
+2. generalizing the results to a larger group than was actually represented by the study 
+
+statistics: you can’t make a cause-and-effect conclusion based on relationships you find 
+Until you do a controlled experiment
+
+statistics: Types of errors:
+1. Honest error
+2. Error by omission
+3. Intentional lie
+
+statistics: how to detect errors:
+- Check to be sure everything adds up. In other words, do the percents in the pie chart add up to 100 (or close enough due to rounding)? Do the number of people in each category add up to the total number surveyed? 
+- Double-check even the most basic calculations. 
+- Always look for a total so you can put the results into proper perspective. Ignore results based on tiny sample sizes. 
+- Examine whether the projections are reasonable. For example, if three deaths due to a certain condition are said to happen per minute, that adds up to over 1.5 million such deaths in a year. Depending on what condition is being reported, this number may be unreasonable. 
+
+Types of errors:
+	0.	Honest error
+	0.	Error by omission
+	0.	Intentional lie
+
+The first thing you want to do when you come upon a statistic or the result of a statistical study is to ask:
+“Is this number correct?”
+
+How to spot the errors:
+
+Check to be sure everything adds up.
+In other words, do the percents in the pie chart add up to 100 (or close enough due to rounding)? Do the number of people in each category add up to the total number surveyed? » Double-check even the most basic calculations. » Always look for a total so you can put the results into proper perspective. Ignore results based on tiny sample sizes. » Examine whether the projections are reasonable. For example, if three deaths due to a certain condition are said to happen per minute, that adds up to over 1.5 million such deaths in a year. Depending on what condition is being reported, this number may be unreasonable.
+
+>>>>>>>>>>>>>>>>
+
+To create an even playing field when measuring how often an event occurs
+you convert each number to a percent by dividing by the total to get what statisticians call a rate. Rates are usually better than count data because rates allow you to make fair comparisons when the totals are different.
+
+Before believing statistics indicating “the highest XXX” or “the lowest XXX,”
+take a look at how the variable is measured to see whether it’s fair and whether there are other statistics that should be examined too to get the whole picture. Also make sure the units are appropriate for making fair comparisons.
+
+Scale
+
+Charts. One of the most important elements to watch for:
+is the way that the chart or graph is scaled. The scale of a graph is the quantity used to represent each tick mark on the axis of the graph. Do the tick marks increase by 1s, 10s, 20s, 100s, 1,000s, or what? The scale can make a big difference in terms of the way the graph or chart looks.
+
+Numbers statistics
+
+
+Manipulation with scale!
+Looking at the scale of a graph or chart can really help you keep the reported results in proper perspective.
+	⁃	Stretching the scale out or starting the y-axis at the highest possible number makes differences appear larger;
+	⁃	squeezing down the scale or starting the y-axis at a much lower value than needed makes differences appear smaller than they really are.
+
+Working with sources:
+	⁃	The best results are often published in reputable journals that are well known by the experts in the field
+	⁃	who financially supported the research. Many companies finance research and use it for advertising their products. Although that in itself isn’t necessarily a bad thing, in some cases a conflict of interest on the part of researchers can lead to biased results
+	⁃	if the results are very important to you, ask whether more than one study was conducted, and if so, ask to examine all the studies that were conducted
+
+Counting on sample size
+sample size is an important factor in determining the accuracy and repeatability of the results
+
+Considering cause and effect
+You tackle the issues of cause-and-effect relationships between variables in Chapter 18.
+
+Finding what you wanted to find
+Research shows that even small changes in wording affect survey outcomes, lead- ing to results that conflict when different surveys are compared. If you can tell from the wording of the question how they want you to respond to it, you know you’re looking at a leading question; and leading questions lead to biased results.
+
+Looking for lies in all the right places
+	0.	people throw out data that don’t fit their hypothesis, don’t fit the pattern, or appear to be outliers
+	0.	Regarding missing data from experiments, a commonly used phrase is “Among those who completed the study. . . .” What about those who didn’t complete the study, especially a medical one? Did they get tired of the side effects of the experi- mental drug and quit? If so, the loss of this person will create results that are biased toward positive outcomes.
+	0.	Before believing the results of a study, check out how many people were chosen to participate, how many finished the study, and what happened to all the partici- pants, not just the ones who experienced a positive result.
+	0.	In general, the lower the percentage of people who respond to a survey (the response rate), the less credible the results will be
+
+scientific method
+formulating good questions,
+setting up studies,
+collecting good data,
+analyzing the data properly,
+and making appropriate conclusions
+
+
+Suppose a researcher wants to determine who will win the next U.S. presidential election. To answer with confidence, the researcher has to follow several steps:
+	0.	Determine the population to be studied.
+	0.	Collect the data.
+	0.	Organize, summarize, and analyze the data.
+	0.	Take all the data summaries, charts, graphs, and analyses and draw conclu- sions from them to try to answer the researcher’s original question.  
+Determine the population to be studied. In this case, the researcher intends to study registered voters who plan to vote  in the next election.
+
+Collect the data.  This step is a challenge, because you can’t go out and ask every person in the United States whether they plan to vote, and if so, for whom they plan to vote. Beyond that, suppose someone says, “Yes, I plan to vote.” Will that person really vote come Election Day? And will that same person tell you whom he actually plans to vote for? And what if that person changes his mind later on and votes for a different candidate?
+
+Organize, summarize, and analyze the data.  After the researcher has gone out and collected the data she needs, getting it organized, summarized, and analyzed helps the researcher answer her question. This step is what most people recognize as the business of statistics.
+
+Take all the data summaries, charts, graphs, and analyses and draw conclu- sions from them to try to answer the researcher’s original question.  Of course, the researcher will not be able to have 100% confidence that her answer is correct, because not every person in the United States was asked. But she can get an answer that she is nearly 100% sure is correct. In fact, with
+a sample of about 2,500 people who are selected in a fair and unbiased way (that is, every possible sample of size 2,500 had an equal chance of being selected), the researcher can get accurate results within plus or minus 2.5% (if all the steps in the research process are done correctly).
+
+margin of error why do ween it and what is it:
+In making conclusions, the researcher has to be aware that every study has limits and that — because the chance for error always exists — the results could be wrong. A numerical value can be reported that tells others how confident the researcher is about the results and how accurate these results are expected to be.
+
+Data types:
+two groups: numerical or categorical
+
+Numerical data:
+These data have meaning as a measurement, such as a person’s height, weight, IQ, or blood pressure; or they’re a count, such as the number of stock shares a person owns, how many teeth a dog has, or how many pages you can read of your favorite book before you fall asleep. (Statisticians also call numerical data quantitative data.)
+ Numerical data can be further broken into two types:
+discrete and continuous.
+
+Discrete data
+represent items that can be counted; they take on possible values that can be listed out. The list of possible values may be fixed (also called finite); or it may go from 0, 1, 2, on to infinity (making it countably infinite). For example, the number of heads in 100 coin flips takes on values from 0 through 100 (finite case), but the number of flips needed to get
+100 heads takes on values from 100 (the fastest scenario) on up to infinity. Its possible values are listed as 100, 101, 102, 103, . . . (representing the countably infinite case).
+
+Continuous data
+represent measurements; their possible values cannot be counted and can only be described using intervals on the real number line. For example, the exact amount of gas purchased at the pump for cars with 20-gallon tanks represents nearly-continuous data from 0.00 gallons to 20.00 gallons, represented by the interval [0, 20], inclusive. (Okay, you can count all these values, but why would you want to? In cases like these, statisticians bend the definition of continuous a wee bit.) The lifetime of a C battery can be anywhere from 0 to infinity, technically, with all possible values in between. Granted, you don’t expect a battery to last more than a few hundred hours, but no one can put a cap on how long it can go (remember the Energizer Bunny?).
+
+Categorical data:
+Categorical data represent characteristics such as a person’s gender, marital status, hometown, or the types of movies they like. Categorical data can take on numerical values (such as “1” indicating male and “2” indicating female), but those numbers don’t have meaning. You couldn’t add them together, for example. (Other names for categorical data are qualitative data, or Yes/No data.)
+
+Ordinal data
+mixes numerical and categorical data. The data fall into categories, but the numbers placed on the categories have meaning. For example, rating a restaurant on a scale from 0 to 4 stars gives ordinal data. Ordinal data are often treated as categorical, where the groups are ordered when graphs and charts are made. I don’t address them separately in this book
+
+A data set is
+the collection of all the data
+
+population
+The group of individuals you want to study in order to answer your research question is called a population. Populations, however, can be hard to define. In a good study, researchers define the population very clearly, whereas in a bad study, the population is poorly defined.
+
+Sample what is it, why it works
+subset of the population is called a sample
+Taste of soup. you draw a conclusion about the whole pot of soup, without actually having tasted all of it
+Taking a sample works the same way in statistics
+
+bias
+systematic favoritism of certain individuals or certain outcomes of the study.
+
+How do you select a sample in a way that avoids bias?
+The key word is random. A random sample is a sample selected by equal opportunity; that is, every possible sample the same size as yours had an equal chance to be selected from the popula- tion. What random really means is that no group in the population is favored in or excluded from the selection process
+
+
+Non-random (in other words bad) samples
+are samples that were selected in such a way that some type of favoritism and/or automatic exclusion of a part of the population was involved. A classic example of a non-random sample comes from polls for which the media asks you to phone in your opinion on a certain issue (“call-in” polls). People who choose to participate in call-in polls do not repre- sent the population at large because they had to be watching that program, and they had to feel strongly enough to call in. They technically don’t represent a sample at all, in the statistical sense of the word, because no one selected them beforehand — they selected themselves to participate, creating a volunteer or self- selected sample. The results will be skewed toward people with strong opinions.
+
+
+To take an authentic random sample, you need
+a randomizing mechanism to select the individuals
+	⁃	creates a list of all possible household phone numbers in America and then selects
+	⁃	subset of numbers from that list for Gallup to call.
+use of random number generators
+In this process, the items in the sample are chosen using a computer- generated list of random numbers, where each sample of items has the same chance of being selected
+
+Don’t be taken in by large sample
+No matter how large a sample is, if it’s based on non-random methods, the results will not represent the population
+A small ran- dom sample is better than a large non-random one.
+
+A statistic is
+a number that summarizes the data collected from a sample.
+For example, data can be sum- marized as
+	⁃	a percentage (60% of U.S. households sampled own more than two cars), an average (the average price of a home in this sample is . . .)
+	⁃	a median (the median salary for the 1,000 computer scientists in this sample was . . .), are used to summarize numerical data
+	⁃	a per- centile (your baby’s weight is at the 90th percentile this month, based on data collected from over 10,000 babies).
+
+The type of statistic calculated depends on
+percent- ages are used to summarize categorical data, and means are used to summarize numerical data.
+The price of a home is a numerical variable, so you can calculate its mean or standard deviation.
+However, the color of a home is a categorical vari- able; finding the standard deviation or median of color makes no sense. In this case, the important statistics are the percentages of homes of each color.
+
+Figures don’t lie, but liars figure
+
+Statistics are based on:
+on sample data, not on population data
+
+If you collect data from the entire population, that process is called
+a census
+
+parameter
+If you summarize the entire census information from one variable into a single number, that num- ber is a parameter,
+
+parameter vs statistic:
+the census numbers can only be called estimates in the end, and they’re adjusted upward to account for people the census missed
+
+Bias is
+systematic favoritism that is present in the data collection process, resulting in lopsided, misleading results
+
+Bias can occur in any of a number of ways:
+In the way the sample is selected:
+In the way data are collected:
+
+Bias can occur In the way the sample is selected:
+For example, if you want to estimate how much holiday shopping people in the United States plan to do this year, and you take your clipboard and head out to a shopping mall on the day after Thanksgiving to ask customers about their shopping plans, you have bias in your sampling process. Your sample tends to favor those die-hard shoppers at that particular mall who were braving the massive crowds on that day known to retailers and shoppers as “Black Friday.”
+
+Bias can occur In the way data are collected:
+Poll questions are a major source of bias. Because researchers are often looking for a particular result, the questions they ask can often reflect and lead to that expected result. For example, the issue of a tax levy to help support local schools is something every voter faces at one time or another. A poll question asking, “Don’t you think it would be a great investment in our future to support the local schools?” has a bit of bias. On the other hand, so does “Aren’t you tired of paying money out of your pocket to educate other people’s children?” Question wording can have a huge impact on results.
+
+Other issues that result in bias with polls are
+timing
+length
+level of question difficulty, and
+the manner in which the individuals in the sample were contacted (phone, mail, house-to-house, and so on)
+
+how to check bias in polls:
+find out what questions were asked and exactly how the questions were worded before drawing your conclusions about the results.
+
+The mean may not be a fair representation of the data, because
+the average is eas- ily influenced by outliers (very small or large values in the data set that are not typical).
+
+median is
+the point at which there are an equal number of data points whose values lie above and below the median value. Thus, the median is truly the middle of the data set
+
+how to treat reports about «average» values:
+look to see whether the median is also reported. If not, ask for it! The average and the median are two different rep- resentations of the middle of a data set and can often give two very different sto- ries about the data, especially when the data set contains outliers
+
+The standard deviation is
+a measurement statisticians use for the amount of vari- ability (or spread) among the numbers in a data set.
+As the term implies, a stan- dard deviation is a standard (or typical) amount of deviation (or distance) from the average (or mean, as statisticians like to call it)
+
+So the standard deviation, in very rough terms is
+the average distance from the mean.
+
+The formula for standard deviation (denoted by s)
+
+
+The standard deviation is also used to describe
+where most of the data should fall, in a relative sense, compared to the average
+(about 95% of the data lie within two standard deviations of the mean)
+and so on 68-95-99.7 rule)
+
+Don’t be satisfied with finding out only the average
+be sure to ask for the stan- dard deviation as well. Without a standard deviation, you have no way of knowing how spread out the values may be
+
+The percentile
+The percentile reported for a given score is the percentage of values in the data set that fall below that certain score
+For example, if your score was reported to be at the 90th percentile, that means that 90% of the other people who took the test with you scored lower than you did (and 10% scored higher than you did). The median is right in the middle of a data set, so it represents the 50th per- centile.
+
+relative standing
+(that is, how an individual data value compares to the rest of the group)
+
+Percentiles are used in a variety of ways
+for comparison purposes and
+to determine relative standing
+used by companies to see where they stand compared to other companies in terms of sales, profits, customer satisfaction, and so on
+
+The standard score
+represents the number of standard deviations above or below the mean (without caring what that standard deviation or mean actually are)
+suppose Bob took his statewide 10th-grade test recently and scored 400. What does that mean? Not much, because you can’t put 400 into perspective. But knowing that Bob’s standard score on the test is +2 tells you everything. It tells you that Bob’s score is two standard deviations above the mean.
+
+standardizing
+The process of taking a number and converting it to a standard score
+
+The distribution of a data set
+listing or function showing all the possible values (or intervals) of the data and how often they occur.
+
+The normal distribution is also used to help measure
+the accuracy of many statis- tics, including the mean, using an important result in statistics called the Central Limit Theorem.
+
+Central Limit Theorem
+(CLT for short)
+This theorem gives you the ability to measure how much your sam- ple mean will vary, without having to take any other sample means to compare it with
+basically says that for non-normal data, your sample mean has an approximate normal distribution, no matter what the distribution of the original data looks like (as long as your sample size was large enough)
+the CLT is also true for other sample statistics, such as the sample proportion
+
+z-values
+If a data set has a normal distribution, and you standardize all the data to obtain standard scores, those standard scores are called z-values. All z-values have what is known as a standard normal distribution (or Z-distribution).
+
+The standard normal distribution
+is a special normal distribution with a mean equal to 0 and a stan- dard deviation equal to 1.
+
+The standard normal distribution is useful for
+for examining the data and determin- ing statistics like percentiles, or the percentage of the data falling between two values.
+So if researchers determine that the data have a normal distribution, they usually first standardize the data (by converting each data point into a z-value) and then use the standard normal distribution to explore and discuss the data in more detail
+
+An experiment is
+a study that imposes a treatment (or control) to the subjects (par- ticipants),
+controls their environment (for example, restricting their diets, giving them certain dosage levels of a drug or placebo, or asking them to stay awake for a prescribed period of time),
+and records the responses
+Most experiments try to determine whether some type of experimental treatment (or important factor) has a significant effect on an outcome
+
+The purpose of most experiments is
+to pinpoint a cause-and-effect relationship between two factors (such as alcohol consumption and impaired vision; or dosage level of a drug and intensity of side effects). Here are some typical questions that experiments try to answer:
+	•			Does taking zinc help reduce the duration of a cold? Some studies show that it does.  
+	•			»  Does the shape and position of your pillow affect how well you sleep at night? The Emory Spine Center in Atlanta says yes.  
+	•			»  Does shoe heel height affect foot comfort? A study done at UCLA says up to one-inch heels are better than flat soles.  
+An experiment workflow:
+Subjects who are chosen to participate in the experiment are typically divided into two groups: a treatment group and a control group.
+The treatment group consists of participants who receive the experimental treatment whose effect is being studied (in this case, zinc tablets).  The control group consists of participants who do not receive the experimental treatment being studied. Instead, they get a placebo (a fake treatment; for example, a sugar pill); a standard, nonexperimental treatment (such as vitamin C, in the zinc study); or no treatment at all, depending on the situation.
+In the end, the responses of those in the treatment group are compared with the responses from the control group to look for differences that are statistically sig- nificant (unlikely to have occurred just by chance).  
+
+A placebo is:
+a fake treatment, such as a sugar pill. Placebos are given to the control group to account for a psychological phenomenon called the placebo effect, in which patients receiving a fake treatment still report having a response, as if it were the real treatment.  
+How to use a placebo
+By measuring the placebo effect in the control group, you can tease out what portion of the reports from the treatment group were real and what portion were likely due to the placebo effect. (Experimenters assume that the placebo effect affects both the treatment and control groups.)  
+A blind experiment  is one in which the subjects who are participating in the study are not aware of whether they’re in the treatment group or the control group  A blind experiment attempts to control for bias on the part of the participants.  
+A double-blind experiment
+controls for potential bias on the part of both the patients and the researchers. Neither the patients nor the researchers collecting the data know which subjects received the treatment and which didn’t. So who does know what’s going on as far as who gets what treatment? Typically a third party  (someone not otherwise involved in the experiment) puts together the pieces independently. A double-blind study is best, because even though researchers may claim to be unbiased, they often have a special interest in the results — otherwise they wouldn’t be doing the study!
+
+A survey (more commonly known as a poll) is
+a questionnaire; it’s most often used to gather people’s opinions along with some relevant demographic information.
+
+margin of error
+Most surveys (except a census) are based on information collected from a sample of individuals, not the entire population.
+A certain amount of error is bound to occur — not in the sense of calculation error (although there may be some of that, too) but in the sense of sampling error, which is the error that occurs simply because the researchers aren’t asking everyone
+The margin of error is supposed to measure the maximum amount by which the sample results are expected to differ from those of the actual population
+The margin of error measures accuracy;
+
+стр 79 (файл) или 63 (книга)
+
+How do you interpret a margin of error?
+Election example
+
+Confidence interval
+helps estimate a population parameter using a sample statistic
+In other words, use a number that summarizes a sample to help you guesstimate the corresponding number that summarizes the whole popula- tion
+A confidence interval represents a range of likely values for the population parameter, based on your sample statistic.
+For example, suppose the average time it takes you to drive to work each day is 35 minutes, with a margin of error of plus or minus 5 minutes.
+You estimate that the average time to work would be anywhere from 30 to 40 minutes.
+This estimate is a confidence interval.
+
+why do we need confidence interval
+	⁃	What’s the average household income in America?
+	⁃	What percentage of all Americans watched the Academy Awards this year?
+	⁃	What’s the average life expectancy of a baby born today?
+It’s not possible to find these parameters exactly; they each require an estimate based on a sample.
+You start by taking a random sample from a population (say a sample of 1,000 households in America) and then finding the corresponding sta- tistic from that sample (the sample’s mean household income).
+Because you know that sample results vary from sample to sample, you need to add a “plus or minus something” to your sample results if you want to draw conclusions about the whole population (all households in America).
+This “plus or minus” that you add to your sample statistic in order to estimate a parameter is the margin of error
+
+Several factors influence the width of a confidence interval
+RULE: the wider the interval the less the accuracy
+such as sample size,
+the amount of variability in the population being studied,
+and how confident you want to be in your results.
+(Most researchers are happy with a 95% level of confidence in their results.)
+
+Hypothesis test
+A statistical procedure in which data from a sample are measured against a claim about a population parameter.
+are used to test the validity of a claim that is made about a population
+
+
+What is a statistically significant result?
+A result that is unlikely to have occurred by chance.
+
+Front of Flash Card: What is a statistically significant result?
+Back of Flash Card: A result that is unlikely to have occurred by chance.
+
+Front of Flash Card: How can you test a claim about a population parameter?
+Back of Flash Card: By collecting a random sample of data and measuring it against the claim.
+
+Front of Flash Card: What is the margin of error?
+Back of Flash Card: The amount by which sample results can change from sample to sample.
+
+Front of Flash Card: What are some types of hypothesis tests?
+Back of Flash Card: Some types of hypothesis tests include t-tests, paired t-tests, and tests of claims about proportions or means for one or more populations.
+
+Front of Flash Card: What is the null hypothesis?
+Back of Flash Card: A null hypothesis is a statement that there is no significant difference between a population parameter and a sample statistic.
+
+Front of Flash Card: What is the alternative hypothesis?
+Back of Flash Card: An alternative hypothesis is a statement that contradicts the null hypothesis and suggests that there is a significant difference between a population parameter and a sample statistic.
+
+Front of Flash Card: What is the role of data and statistics in hypothesis testing?
+Back of Flash Card: Data and statistics are the evidence in a hypothesis test. They are used to determine the validity of a claim made about a population.
+
+Front of Flash Card: What is a p-value?
+Back of Flash Card: A p-value is a number between 0 and 1 that is used to weigh the strength of the evidence in a hypothesis test. It tells you what the data are telling you about the population.
+
+Front of Flash Card: How is a small p-value interpreted in hypothesis testing?
+Back of Flash Card: A small p-value (typically ≤ 0.05) indicates strong evidence against the null hypothesis in a hypothesis test, so you reject it.
+
+Front of Flash Card: How is a large p-value interpreted in hypothesis testing?
+Back of Flash Card: A large p-value (> 0.05) indicates weak evidence against the null hypothesis in a hypothesis test, so you fail to reject it.
+
+Front of Flash Card: What is the significance of a p-value close to the cutoff (0.05) in hypothesis testing?
+Back of Flash Card: P-values very close to the cutoff (0.05) are considered to be marginal and could go either way in a hypothesis test. It is important to report the p-value so that readers can draw their own conclusions.
+
+How is a p-value interpreted?
+	•	A p-value is a number between 0 and 1 and is interpreted as follows:
+	•	A small p-value (typically ≤ 0.05) indicates strong evidence against the null hypothesis, so you reject it.
+	•	A large p-value (> 0.05) indicates weak evidence against the null hypothesis, so you fail to reject it.
+	•	p-values very close to the cutoff (0.05) are considered to be marginal (could go either way).
+
+What is the evidence in a hypothesis test?
+The evidence in a hypothesis test is the data and the statistics that go along with it, which are used to test the validity of a claim made about a population.
+
+Front of Flash Card: What is statistical significance?
+Back of Flash Card: Statisticians define statistical significance as a result with a very small probability of happening by chance. They measure the amount by which a result is out of the ordinary using hypothesis tests, and provide a number called a p-value to reflect that probability. 
+Front of Flash Card: How do researchers determine statistical significance?
+Back of Flash Card: Researchers determine statistical significance by conducting hypothesis tests to determine if a result is unlikely to have occurred by chance. They use a p-value to represent the probability of the result happening by chance. A result with a low p-value is considered statistically significant.
+
+Front of Flash Card: How is statistical significance used in medical research?
+Back of Flash Card: In medical research, statistical significance is used to determine if a new treatment is more effective than an existing one. If the results show a statistically significant improvement in patient outcomes, it means that the difference is likely not due to chance. However, the results may not necessarily apply to every individual or be relevant to everyone.
+
+Front of Flash Card: What are the limitations of statistical significance?
+Back of Flash Card: Although statistical significance indicates that a result is unlikely to have occurred by chance, it doesn't necessarily mean that the result is important or relevant. Additionally, sometimes statisticians can make the wrong conclusion about the null hypothesis due to chance, and further studies are needed to replicate and validate results. Finally, research results that show statistical significance can receive a lot of media attention, but refuting studies often receive less coverage.
+
+Front of Flash Card:
+What should you do if you come across a statistically significant result?
+Back of Flash Card:
+Don't make quick decisions based on one study. Instead, wait for a body of evidence to build up over time along with a variety of well-designed follow-up studies. Take any major breakthroughs you hear about with a grain of salt and be cautious before using information from a single study to make important decisions in your life. The results may not be replicable, and even if they are, you can't know if they necessarily apply to each individual.
+
+Front of Flash Card: What does it mean when a study's results are statistically significant?
+Back of Flash Card: Statistically significant means that the results were unusual and have a very small probability of happening by chance, but it doesn't necessarily mean that they are important. For example, a study may find that cats move their tails more often in the sun than in the shade, and this difference is statistically significant, but this may not be important or relevant to anyone.
+
+Front:
+Term: Correlation versus causation
+Definition: A common statistical issue in which the concepts of correlation and causation are misused.
+Front:
+Term: Correlation
+Definition: A statistical term that refers to the degree to which two numerical variables have a linear relationship.
+Front:
+Term: Linear relationship
+Definition: A relationship between two variables that increases or decreases at a constant rate.
+Front:
+Term: Causation
+Definition: A relationship between two variables in which one variable causes the other.
+Front:
+Term: Misuse
+Definition: To use something in an incorrect or inappropriate way.
+Front:
+Term: Numerical variables
+Definition: Variables that are measured using numbers.
+Front:
+Term: Confounding variable
+Definition: A variable that affects both the dependent and independent variables in a study and can lead to a false conclusion about the relationship between the two variables.
+Front:
+Term: Correlated variables
+Definition: Variables that are statistically related to each other, meaning that a change in one variable is associated with a change in the other.
+Front:
+Term: Spurious correlation
+Definition: A correlation between two variables that is not caused by a direct relationship between the two variables, but rather by a third variable that affects both.
+Front:
+Term: Examples of correlated variables
+Definition: Three examples of correlated variables are height and weight, age and income, and education level and job satisfaction.
+
+Front:
+What is the difference between correlation and causation?
+Back:
+Correlation measures the extent of a linear relationship between two variables, while causation states that a change in one variable causes a change in another variable.
+
+Front:
+Why is the misuse of correlation and causation problematic?
+Back:
+Misusing correlation and causation can lead to false conclusions, particularly when making the causation leap without sufficient evidence.
+
+Front:
+Can a correlation prove causation?
+Back:
+No, correlation cannot prove causation. Additional evidence, such as a well-designed experiment, is necessary to establish causality.
+
+Front:
+What should you do before making any conclusions about a correlation?
+Back:
+Before making any conclusions, you should examine how the data were collected and wait to see if other researchers are able to replicate the results.
+
+example of corellation vs causation:
+you can’t claim that consumption of ice cream causes an increase in murder rates just because they are correlated. In fact, the study showed that temperature was positively correlated with both ice cream sales and murders
+
+Front:
+What is a descriptive statistic?
+Back:
+A descriptive statistic is a number that summarizes or describes some characteristic about a set of data. It is used to get a good picture of a data set and to interpret them.
+
+Front:
+What are the most common descriptive statistics?
+Back:
+The most common descriptive statistics are measures of central tendency (mean, median, and mode) and measures of variability (range, variance, and standard deviation).
+
+Front:
+What is the purpose of calculating descriptive statistics?
+Back:
+The purpose of calculating descriptive statistics is to summarize or describe some characteristic about a set of data. This helps in getting a good picture of a data set and interpreting it.
+
+Front:
+What do descriptive statistics say about the data?
+Back:
+Descriptive statistics provide a summary of a data set, including measures of central tendency and variability. However, they do not provide any information about the relationship between variables or whether a correlation implies causation.
+
+Front of flashcard: What is categorical data?
+Back of flashcard: Categorical data (also known as qualitative data) capture qualities or characteristics about the individual, such as a person's eye color, gender, political party, or opinion on some issue, using categories such as Agree, Disagree, or No opinion. Categorical data tend to fall into groups or categories pretty naturally.
+
+Front of flashcard: How is categorical data often summarized?
+Back of flashcard: Categorical data are often summarized by reporting the percentage of individuals falling into each category. To calculate the percentage of individuals in a certain category, find the number of individuals in that category, divide by the total number of people in the study, and then multiply by 100%.
+
+Front of flashcard: What are two-way tables?
+Back of flashcard: Two-way tables (also called crosstabs) summarize the information from two categorical variables at once, such as gender and political party, so you can see (or easily calculate) the percentage of individuals in each combination of categories and use them to make comparisons between groups.
+
+Front of flashcard: How does the U.S. government use categorical data?
+Back of flashcard: The U.S. government calculates and summarizes loads of categorical data using crosstabs. Categorical data can be used to examine many different facets of the U.S. population, such as gender and age demographics.
+
+What is numerical data?
+	•	Numerical data are measurable characteristics such as height, weight, IQ, age, or income that are represented by numbers that make sense within the context of the problem.
+
+How is numerical data summarized?
+	•	Numerical data can be summarized in more ways than categorical data.
+	•	The most common way to summarize a numerical data set is to describe where the center is.
+
+What does the center of a data set mean?
+	•	The center of a data set can be measured in different ways, and the method chosen can greatly influence the conclusions people make about the data.
+	•	The center of a data set can be thought of as a typical value or where the middle of the data is.
+
+The average, also called the mean of a data set, is denoted
+
+
+The formula for finding the mean is:
+
+where each value in the data set is denoted by an x with a subscript i that goes from 1 (the first number) to n (the last number).
+
+What is the population mean?
+The population mean, denoted with the Greek letter μ, is the mean of an entire population of data. It is found by summing up all the values in the population and dividing by the population size, denoted N.
+
+outliers
+Numbers in a data set that are extremely high or extremely low compared to the rest of the data
+
+The median of a data set is
+the value that lies exactly in the middle when the data have been ordered. It’s denoted in different ways; some people use M and some use
+
+
+Steps for Finding the Median
+	0.	Order the numbers from smallest to largest.
+	0.	If the dataset contains an odd number of numbers, choose the one that is exactly in the middle. You’ve found the median.
+	0.	If the dataset contains an even number of numbers, take the two numbers that appear in the middle and average them to find the median.
+
+Front of card:
+Median vs Average
+The median is a measure of center that is calculated by finding the middle value of a dataset. It is not affected by outliers, unlike the average. The median is often used to represent center with respect to income data.
+
+Front of flash card: What is a histogram?
+Back of flash card: A histogram is a graph that organizes and displays numerical data in picture form, showing groups of data and the number or percentage of the data that fall into each group. It is used to illustrate the shape of numerical data and gives a snapshot of the data set, including how many values are close to/far from the mean, where the center is, and how many outliers there might be.
+
+
+Front:
+What is meant by "skewed to the right" in a histogram?
+Back:
+If most of the data are on the left side of the histogram but a few larger values are on the right, the data are said to be skewed to the right. Histogram A in Figure 5-1 shows an example of data that are skewed to the right. The few larger values bring the mean upwards but don’t really affect the median. So when data are skewed right, the mean is larger than the median. An example of such data is NBA salaries.
+
+
+Front: Skewed left
+Back: If most of the data are on the right, with a few smaller values showing up on the left side of the histogram, the data are skewed to the left. An example of such data is the amount of time students use to take an exam. When data are skewed left, the mean is smaller than the median.
+
+
+Symmetric Data
+	•	Explanation: When data is symmetric, it means that the shape of the histogram is the same on either side of the middle. If you were to fold the histogram in half, it would look about the same on both sides.
+
+
+resistant statistic
+if a statistic is not affected by a certain characteristic of the data (such as outliers, or skewness), then you say that statistic is resistant to that characteristic. In this case the median is resistant to outliers; the mean is not
+
+The standard deviation
+measures how concentrated the data are around the mean; the more concentrated, the smaller the standard deviation. It’s not reported nearly as often as it should be, but when it is, you often see it in paren- theses: (s = 2.68).
+
+The formula for the sample standard deviation of a data set (s) is
+
+
+To calculate s, do the following steps:
+
+
+Statisticians divide by n – 1 instead of by n
+just remember
+
+The standard deviation of an entire population of data is denoted
+with the Greek letter σ. When I use the term standard deviation, I mean s, the sample standard deviation
+
+Front:
+Term: Standard deviation
+Definition: A measure of the amount of variation or dispersion of a set of data values from their mean
+
+Term: Small standard deviation
+Definition: Means that the values in the data set are close to the mean of the data set, on average
+
+Term: Large standard deviation
+Definition: Means that the values in the data set are farther away from the mean, on average
+
+Term: Situations where small standard deviation is a goal
+Definition: Product manufacturing and quality control, where consistent results are desired
+
+Term: Situations where large standard deviation is not necessarily bad
+Definition: When just observing and recording data, it reflects a large amount of variation in the group being studied
+
+What is the impact of outliers on standard deviation?
+Outliers, like the mean, affect the standard deviation.
+
+What should you consider when interpreting standard deviation?
+	•	Pay attention to the units when evaluating whether a standard deviation is large or small.
+	•	For example, a standard deviation of 2 in units of years is the same as a standard deviation of 24 in units of months.
+	•	Also, take into account the value of the mean when considering the magnitude of the standard deviation.
+	•	For instance, a standard deviation of 3.4 for the number of Internet newsgroups a user posts to may seem like a lot of variation if the mean is 5.2, but it would be relatively smaller if the mean age of newsgroup users is 25.6 years.
+
+Here are some properties that can help you when interpreting a standard deviation:
+	•	The standard deviation can never be a negative number, due to the way it’s calculated and the fact that it measures a distance (distances are never negative numbers).
+	•	The smallest possible value for the standard deviation is 0, and that happens only in contrived situations where every single number in the data set is exactly the same (no deviation).
+	•	The standard deviation is affected by outliers (extremely low or extremely high numbers in the data set). That’s because the standard deviation is based on the distance from the mean. And remember, the mean is also affected by outliers.
+	•	The standard deviation has the same units as the original data.  
+
+Without standard deviation, you can’t get a handle on
+whether the data are close to the average (as are the diameters of car parts that come off of a conveyor belt when everything is operating correctly) or whether the dataare spread out over a wide range (as are house prices and income levels in the U.S.)
+
+Front: Why is it not enough to compare averages of two data sets?
+Back: Two sets of data may have the same average but very different standard deviations.
+
+Front: What is the range?
+Back: The range is a measure of diversity in a data set and is calculated by subtracting the smallest value from the largest value.
+
+Front: Why is the range almost meaningless?
+Back: The range is almost meaningless because it depends on only two numbers in the data set, which may reflect extreme values (outliers).
+My advice is to ignore the range and find the standard deviation, which is a more informative measure of the variation in the data set because it involves all the values
+
+Front: What is the interquartile range?
+Back: The interquartile range is a statistic similar to the range, but it eliminates outlier and skewness issues by only looking at the middle 50% of the data and finding the range for those values.
+
+Front: How do we describe the values in a population in the best way?
+Back: We can describe the values in a population by putting a measure of center (such as the mean or median) together with a measure of variation (such as standard deviation or interquartile range).
+
+Front: What is the Empirical Rule?
+Back: The Empirical Rule states that for a population with a normal distribution, about 68% of the values lie within 1 standard deviation of the mean, about 95% lie within 2 standard deviations of the mean, and about 99.7% lie within 3 standard deviations of the mean. These are represented statistically as μ ± 1σ, μ ± 2σ, and μ ± 3σ, respectively.
+
+Front: What does the Empirical Rule tell you about the percentage of values within a certain range of the mean?
+Back: The Empirical Rule tells you about what percentage of values are within a certain range of the mean, and these results are approximations only and only apply if the data follow a normal distribution.
+
+Front: What is the condition for being able to use the Empirical Rule?
+Back: The condition for being able to use the Empirical Rule is that the data have a normal distribution. If the distribution is not normal, percentiles can be used to describe the data.
+
+Front: What is a percentile?
+Back: A percentile is a statistic that reports relative standing and is a number in the data set that splits the data into two pieces. The lower piece contains k percent of the data, and the upper piece contains the rest of the data (which amounts to [100 – k] percent).
+
+Front: What is the median in terms of percentiles?
+Back: The median is the 50th percentile, which is the point in the data where 50% of the data fall below that point and 50% fall above it.
+
+Front: What is the range of values for k in percentiles?
+Back: k is any number between 1 and 100.
+
+Front: What is the purpose of using percentiles in statistics?
+Back: Percentiles are used to measure relative standing and help uncover the story behind a data set when the precise values of mean, median, and standard deviation are not as important but you are interested in is where you stand compared to the rest of the herd
+
+To calculate the kth percentile (where k is any number between one and one hun- dred), do the following steps:
+	0.	Order all the numbers in the data set from smallest to largest.  
+	0.	Multiply k percent times the total number of numbers, n.  
+	•	3a.  If your result from Step 2 is a whole number, go to Step 4. If the result from Step 2 is not a whole number, round it up to the nearest whole number and go to Step 3b.  
+	•	3b.  Count the numbers in your data set from left to right (from the smallest to the largest number) until you reach the value indicated by Step 3a. The corresponding value in your data set is the kth percentile.
+4. Count the numbers in your data set from left to right until you reach the one indicated by Step 2. The kth percentile is the average of that corre- sponding value in your data set and the value that directly follows it.
+
+example of calculating the percentile
+For example, suppose you have 25 test scores, and in order from lowest to highest they look like this: 43, 54, 56, 61, 62, 66, 68, 69, 69, 70, 71, 72, 77, 78, 79, 85, 87, 88, 89, 93, 95, 96, 98, 99, 99. To find the 90th percentile for these (ordered) scores, start by multiplying 90% times the total number of scores, which gives 90% * 25 = 0.90 * 25 = 22.5. Rounding up to the nearest whole number, you get 23.
+Counting from left to right (from the smallest to the largest number in the data set), you go until you find the 23rd number in the data set. That number is 98, and it’s the 90th percentile for this data set.
+Now say you want to find the 20th percentile. Start by taking 0.20 * 25 = 5; this is a whole number, so proceed from Step 3a to Step 4, which tells us the 20th percentile is the average of the 5th and 6th numbers in the ordered data set (62 and 66). The 20th percentile then comes to (62 + 66) ÷ 2 = 64. The median (the 50th percentile) for the test scores is the 13th score: 77.
+
+Front: What is the percentile and how is it calculated?
+Back: The kth percentile is a number in the data set that splits the data into two pieces: The lower piece contains k percent of the data, and the upper piece contains the rest of the data (which amounts to [100 – k] percent). To find the kth percentile, multiply k by the total number of scores and round up to the nearest whole number. Count from left to right until you find the kth number in the ordered data set.
+
+Front: What is the main purpose of percentiles?
+Back: The main purpose of percentiles is to report the relative standing of a particular value within a data set. It tells you where you stand in relation to everyone else, regardless of the actual mean, standard deviation, or data value.
+
+interpreting percentiles:
+the relative standing of a particular value within a data set. If that’s what you’re most interested in, the actual mean and standard deviation of the data set are not important, and neither is the actual data value. What’s impor- tant is where you stand — not in relation to the mean, but in relation to everyone else: That’s what a percentile gives you.
+
+Front: What is the universal interpretation of percentiles?
+Back: The universal interpretation of percentiles is that being at a certain percentile means the same thing regardless of the type of data. For example, being at the 95th percentile always means that 95% of the other values lie below yours, and 5% lie above it.
+
+Front: How can percentiles be used to compare different data sets with different means and standard deviations?
+Back: Percentiles can be used to compare different data sets with different means and standard deviations because they provide a way to compare relative standing regardless of the actual values. This allows for a fair comparison between data sets that may have different scales or distributions.
+
+Front: What is the relationship between percentile and grade?
+Back: Percentile indicates your relative standing compared to the rest of the data set. For example, if your exam score is at the 90th percentile, it means that 90% of the other scores are below yours. This percentile may correspond to a certain grade (such as an A), but the actual score itself may not be as important as the percentile.
+
+Front: What is the five-number summary?
+Back: The five-number summary is a set of five statistics that describe how a data set is laid out. The five numbers are the minimum, Q1, median, Q3, and maximum, and are used to create a boxplot to visually represent the data.
+
+Front: How do you find the five-number summary?
+Back: To find the five-number summary, you need to first order the data set. Then, find the minimum and maximum values. To find the median, locate the middle value in the data set. To find Q1 and Q3, use the steps in the section “Calculating percentiles,” with n being the total number of data points.
+
+Front: How do you calculate Q1 and Q3?
+Back: To calculate Q1 and Q3, use the steps in the section “Calculating percentiles” with n being the total number of data points. Step 2 involves multiplying the desired percentile (25th for Q1 and 75th for Q3) by n. If this value is not a whole number, round up to the nearest whole number and proceed to Step 3b. Counting from left to right in the ordered data set, find the number at this position to determine Q1 and Q3.
+
+Front: What is the purpose of a five-number summary?
+Back: The purpose of a five-number summary is to provide a more detailed description of a data set beyond a single measure of center and spread. It is useful for data sets that are not bell-shaped, as it describes the data set in terms of percentiles. The five-number summary is used to create a boxplot to visualize the data set.
+
+Front: What is the purpose of the five-number summary?
+Back: The purpose of the five-number summary is to give descriptive statistics for center, variation, and relative standing all in one shot. The measure of center in the five-number summary is the median, and the first quartile, median, and third quartiles are measures of relative standing.
+
+Front: How can you find a measure of variation based on the five-number summary?
+Back: To obtain a measure of variation based on the five-number summary, you can find the interquartile range (IQR), which equals Q3 - Q1. The IQR reflects the distance taken up by the innermost 50% of the data. If the IQR is small, you know a lot of data are close to the median. If the IQR is large, you know the data are more spread out from the median.
+
+Front: Why is the IQR a better measure of variation than the regular range?
+Back: The interquartile range is a much better measure of variation than the regular range (maximum value minus minimum value) because the IQR doesn't take outliers into account; it cuts them out of the data set by only focusing on the distance within the middle 50% of the data (that is, between the 25th and 75th percentiles).
+
+Front: How can you calculate the IQR for a data set?
+Back: To calculate the IQR for a data set, you subtract the first quartile (Q1) from the third quartile (Q3): IQR = Q3 - Q1.
+
+The most common types of data displays for categorical data are
+pie charts and bar graphs
+
+Front: What is a pie chart?
+Back: A pie chart is a graphical representation of categorical data that breaks them down by group and shows the percentage of individuals that fall into each group.
+
+Front: What is the sum of all the slices of the pie in a pie chart?
+Back: The sum of all the slices of the pie in a pie chart should be 100% or close to it, since each individual in the study falls into one and only one category.
+
+Front: What should you do if the percentages in a pie chart don't add up?
+Back: If the percentages in a pie chart don't add up, you should keep your eyes open for potential errors or discrepancies.
+
+Front: Why shouldn't a pie chart have too many slices?
+Back: Ideally, a pie chart shouldn't have too many slices because a large number of slices distracts the reader from the main point(s) the pie chart is trying to relay.
+
+Front: Why is lumping the remaining categories into one slice not always a good idea?
+Back: Lumping the remaining categories into one slice that's one of the largest in the whole pie chart leaves readers wondering what's included in that particular slice. With charts and graphs, doing it right is a delicate balance.
+
+Pie charts problems and cautions:
+Pie charts often don’t include mention of the total sample size. Always check for the sample size, especially if the results are very important to you; don’t assume it’s large! If you don’t see the sample size, go to the source of the data and ask for it.
+
+Front: Tips for Evaluating a Pie Chart
+Back:
+	•	Check percentages add up to 100% or close to it
+	•	Watch for large "Other" slices
+	•	Look for reported total number of units
+	•	Avoid 3D pie charts as they don't show proper proportions
+
+Front: What is a bar graph?
+Back: A bar graph is a common data display that breaks categorical data down by group using bars of different lengths, representing the frequency or relative frequency in each group.
+
+Front: How does a bar graph differ from a pie chart?
+Back: A bar graph represents data using bars of different lengths, while a pie chart represents data using slices of a circle.
+
+Front: What is the difference between frequency and relative frequency in a bar graph?
+Back: Frequency represents the number of individuals in each group, while relative frequency represents the percentage in each group.
+
+Front: What is the importance of labeling axes in a graph?
+Back: Labeling axes in a graph is crucial because it provides context and understanding for the reader. Without clear labels, the data presented in a graph can be confusing and meaningless. The x-axis should represent the independent variable, while the y-axis should represent the dependent variable. The units of measurement should also be clearly indicated. Additionally, a title for the graph should be included to convey the main message of the data being presented.
+
+Front: How can a graph be misleading?
+Back: A graph can be misleading in several ways. For example, the scale on the axis can be stretched out, exaggerating the differences between values. The starting point on the axis can also be chosen in a way that emphasizes certain parts of the data and downplays others. Another way a graph can be misleading is through its use of labels that do not accurately represent the data being presented.
+
+Front: How can a histogram be used to represent data?
+Back: A histogram is a type of graph that is used to represent the distribution of a continuous variable. It is similar to a bar graph, but instead of showing the frequency of data within discrete categories, it shows the frequency of data within a range of continuous values. The bars of a histogram touch each other to indicate that the data points are continuous and form a continuous distribution. Histograms are useful for identifying patterns in data and for detecting outliers or unusual values.
+
+Front: Misleading graph scales
+Back: Misleading graphs can result from using "stretched out" or "squeezed down" scales on the frequency/relative frequency axis, making differences in results look more or less dramatic than they really are.
+
+Front: Starting value of a graph
+Back: The starting value of a frequency axis can also be manipulated to mislead viewers of a graph. Starting the frequency axis at a number that's very close to where the differences in the heights of the bars start can exaggerate the values and chop off the less exciting part of the bars.
+
+Front: How can we downplay differences in results, making them look less dramatic than they actually are
+Back: Using a "squeezed down" scale on a graph can downplay differences in results, making them look less dramatic than they actually are.
+
+Front: What are some tips for evaluating a bar graph?
+Back:
+	0.	Bars that divide up values of a numerical variable should be equal in width (if possible) for fair comparison.
+	0.	Be aware of the scale of the bar graph and determine whether it's an appropriate representation of the information.
+	0.	Some bar graphs don't sum to one because they are showing the results of more than one variable; make sure it's clear what's being summarized.
+	0.	Check whether the results are shown as the percentage within each group (relative frequencies) or the number in each group (frequencies).
+	0.	If you see relative frequencies, check for the total sample size. If you see frequencies, divide each one by the total sample size to get percentages, which are easier to compare.
+
+Front: Can a pie chart be used for data sets that allow for multiple responses?
+Back: No, a pie chart wouldn't be possible for data sets that allow for multiple responses (like naming top three pet peeves), as the percentages wouldn't add up to 100%.
+
+124 page
+
+Front: What is a histogram?
+Back: A histogram is a special graph used for numerical data broken down into ordered groups, where the bars connect to each other to represent the frequency or relative frequency of individuals in each group.
+
+Front: How is a histogram different from a bar graph?
+Back: A histogram is different from a bar graph because it is used for numerical data with ordered groups, where the bars connect to each other, and each bar represents the frequency or relative frequency of individuals in each group.
+
+Front: What does the height of each bar in a histogram represent?
+Back: The height of each bar in a histogram represents either the frequency or relative frequency of individuals in each group.
+
+Front: Can you determine the actual values of a data set from a histogram?
+Back: No, you cannot determine the actual values of a data set from a histogram because
+all you know is which group each data value falls into.
+
+Front: What are some tips for setting up a histogram?
+Back:
+	•	Avoid using ranges that are too wide or too narrow.
+	•	A histogram with very wide ranges places all the data into a small number of bars, making comparisons impossible.
+	•	A histogram with very narrow ranges looks choppy with no real pattern.
+	•	Make sure the groups have equal widths.
+	•	Divide the range of data by 10 to get 10 groupings.
+
+Front: What should you do if a data point falls on the boundary between two bars in a histogram?
+Back: As long as you are consistent with all the data points, you can either put all the borderline points into their respective lower bars or put all of them into their respective upper bars. The important thing is to pick a direction and be consistent.
+
+Front: Why is it important to clarify the axes in a histogram?
+Back: The most complex part of interpreting a histogram for the reader is to understand what is being shown on the x and y axes. Therefore, having good descriptive labels on the axes is crucial to make it easier for the reader to interpret the histogram.
+
+Front: How can you clarify the y-axis label in a histogram?
+Back: You can change “frequency” to “number of” and add the variable name, and for “percent,” you can clarify by writing “percentage of” and the variable name. This will help to avoid confusion about what the y-axis is measuring.
+
+Front: What are the three main features of numerical data that a histogram can tell you?
+Back:
+How the data are distributed among the groups (statisticians call this the shape of the data)
+The amount of variability in the data (statisticians call this the amount of spread in the data)  Where the center of the data is (statisticians use different measures)

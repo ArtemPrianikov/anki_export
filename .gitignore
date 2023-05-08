@@ -1,0 +1,6 @@
+/venv
+*.swp
+*.swo
+__pycache__/
+errors.csv
+
