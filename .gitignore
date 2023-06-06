@@ -3,4 +3,7 @@
 *.swo
 __pycache__/
 errors.csv
+*.txt
+*.csv
+*.json
 
