@@ -39,6 +39,10 @@ def create_card(deckname, front, back):
     result = invoke('addNote', note = params)
     print('got result: {}'.format(result))
 
+def get_media():
+    result = invoke('getMediaDirPath')
+    return result
+
 if __name__ == "__main__":
     
     create_card('test1', 'autoqueston', 'autoposted answer')

@@ -4,7 +4,7 @@ import csv
 from main import create_card
 from pprint import pprint
 
-index_counter = 2
+index_counter = 3
 starter = 0
 limiter = 300
 debug_mode = False
@@ -21,30 +21,33 @@ def save_dict_line(file_name, item, sep = ";"):
             writer.writeheader()  # file doesn't exist yet, write a header
         writer.writerow(item)
 
-splitted = s.split('\n\n') # empty row as a delimiter between the cards
+# splitted = s.split('\n\n') # empty row as a delimiter between the cards
+#    """we splitted a raw text by empty row and now we have chunks of text. they can have
+#    different structure. Sometimes they can have 'Front' and 'Back' headers, and sometimes not"""
+splitted = s.split('Front:') # empty row as a delimiter between the cards
+"""it seems this text is using "Front"-"Back" structure. EACH flashcard should start with 'Front:'
+and information part is denoted with 'Back'"""
 splitted  = splitted[starter:limiter]
 for index, i in enumerate(splitted):
     back_text_listed = None
-    """we splitted a raw text by empty row and now we have chunks of text. they can have
-    different structure. Sometimes they can have 'Front' and 'Back' headers, and sometimes not"""
+    """we splitted a raw text by 'Front:' string and now we have chunks of text"""
     
     print('-'*100)
     print(f'{index=}')
 
-    if "Front:" in i:
-        print('it seems this text is using "Front"-"Back" structure')
-        if "Back" in i:
-            splitted_card = i.split('Back:')
-            back_text = splitted_card[1].split('\n')
-        else:
-            splitted_card = i.split('\n')
-            back_text = splitted_card[1:]
-        print(splitted_card)
+    if "Back" in i:
+        splitted_card = i.split('Back:')
+        front_part = splitted_card[0]
+        back_text = splitted_card[1].split('\n')
+        print(f'all parts found')
+        # print(splitted_card)
     else:
-        splitted_card = i.split('\n')
-        back_text = splitted_card[1:]
+        ite = {'index': index, "front": "" , "back" : '', "error": "'Back' not found!"}
+        print(f'ERROR! {ite}')
+        save_dict_line(f'errors{index_counter}.csv', ite)
+        continue
 
-    front = splitted_card[0].replace('Front:','').replace('Front of flashcard:','').strip()
+    front = front_part.strip()
     print(f'{front=}')
 
     formatted_text = "<ol>"
@@ -74,6 +77,6 @@ for index, i in enumerate(splitted):
         try:
             create_card(deck_name, front, formatted_text)
         except:
-            ite = {'front': front, "back" : formatted_text}
+            ite = {'index': index, 'front': front, "back" : formatted_text, 'error': "can not import"}
             save_dict_line(f'errors{index_counter}.csv', ite)
 
