@@ -43,6 +43,15 @@ def get_media():
     result = invoke('getMediaDirPath')
     return result
 
+def store_file(file_path="/Volumes/obs/notes/files/Pasted image 20230619200253.png"):
+    filename = file_path.split('/')[-1]
+    print(f'{filename=}')
+    params["filename"] = filename
+    params["path"] = file_path
+    result = invoke('storeMediaFile', filename = filename, path = file_path)
+    print(result)
+    return result
+
 if __name__ == "__main__":
     
     create_card('test1', 'autoqueston', 'autoposted answer')

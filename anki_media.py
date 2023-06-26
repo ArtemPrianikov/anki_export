@@ -1,5 +1,5 @@
 import pprint
-import os
+import os, shutil
 import csv
 from main import create_card, get_media, store_file
 from pprint import pprint
@@ -7,6 +7,7 @@ from argparse import ArgumentParser
 
 OBSIDIAN_FOLDER = "/Volumes/obs/notes/knowledge"
 OBSIDIAN_FILES = "/Volumes/obs/notes/files"
+ANKI_MEDIA_DIR = "/Users/artem/Library/Application Support/Anki2/1-й пользователь/collection.media"
 DECK_NAME = 'mystat2'
 
 parser = ArgumentParser('anki automator')
@@ -18,10 +19,10 @@ parser.add_argument('-e', '--end', help='end account number in our account list(
 args = parser.parse_args()
 
 print(args)
-STARTER = 0 # args.start
-LIMITER = 1000 # args.end06. Commonly Used Hypothesis Tests. Formulas and Examples
+STARTER = 2 # args.start
+LIMITER = 1000 # args.end
 DEBUG_MODE = False # args.debug
-INDEX_COUNTER = "07. Statistical Studies and the Hunt for a Meaningful Relationship page 273" # args.index
+INDEX_COUNTER = "04" # args.index
 FILENAME = f"Statistic flashcards-{INDEX_COUNTER}.md"
 FILEPATH = os.path.join(OBSIDIAN_FOLDER, FILENAME)
 ERROR_FILENAME = f"errors_{INDEX_COUNTER}"
@@ -94,26 +95,9 @@ def parse_back(back_text):
         if item == "":
             continue
         item = item.strip()
-        if "![[" in item:
-            text_in_row = item.split('[[')[0]
-            if text_in_row:
-                li_item = f"<li>{text_in_row}</li>"
-                if li_item != "!":
-                    formatted_text += li_item
-            img_filename = item.split('[[')[1].split(']]')[0]
-            full_img_filepath = os.path.join("/Volumes/obs/notes/files", img_filename)
-            print(f'{full_img_filepath=}, ready to download the image')
-            store_file(full_img_filepath)
-            print(f'image "{img_filename}" saved')
-            img_html = f'<img src="{img_filename}">'
-            li_item = f"<li>{img_html}</li>"
-            formatted_text += li_item
-            continue
         li_item = f"<li>{item}</li>"
         formatted_text += li_item
     formatted_text += "</ol>"
-    formatted_text = formatted_text.replace('<li>- ','<li>')
-    formatted_text = formatted_text.replace('<li></li>')
     return formatted_text
 
 def insert_single_card_into_deck():
@@ -131,17 +115,11 @@ def import_cards_into_anki(flashcard_texts):
             try:
                 create_card(DECK_NAME, front, back)
             except:
-                ite = {'index': index, 'front': front, "back" : back, 'error': "can not import"}
+                ite = {'index': index, 'front': front, "back" : formatted_text, 'error': "can not import"}
                 save_dict_line(f'errors{INDEX_COUNTER}.csv', ite)
 
 def main():
-    raw_content = load_source(FILEPATH)
-    splitted = split_source(raw_content)
-    pprint(splitted[:3])
-    flashcard_texts = create_flashcard_texts(splitted)
-    pprint(flashcard_texts)
-    import_cards_into_anki(flashcard_texts)
-
+    store_file()
 
 if __name__ == "__main__":
     main()
