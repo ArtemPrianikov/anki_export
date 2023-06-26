@@ -113,7 +113,7 @@ def parse_back(back_text):
         formatted_text += li_item
     formatted_text += "</ol>"
     formatted_text = formatted_text.replace('<li>- ','<li>')
-    formatted_text = formatted_text.replace('<li></li>')
+    formatted_text = formatted_text.replace('<li></li>','')
     return formatted_text
 
 def insert_single_card_into_deck():
