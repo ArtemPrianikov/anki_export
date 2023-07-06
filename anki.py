@@ -21,8 +21,10 @@ print(args)
 STARTER = 0 # args.start
 LIMITER = 1000 # args.end06. Commonly Used Hypothesis Tests. Formulas and Examples
 DEBUG_MODE = False # args.debug
-INDEX_COUNTER = "07. Statistical Studies and the Hunt for a Meaningful Relationship page 273" # args.index
-FILENAME = f"Statistic flashcards-{INDEX_COUNTER}.md"
+# INDEX_COUNTER = "09. Looking for Links (Correlation and Regression)" # args.index
+INDEX_COUNTER = "02" # args.index
+# FILENAME = f"Statistic flashcards-{INDEX_COUNTER}.md"
+FILENAME = f"Probability-{INDEX_COUNTER}.md"
 FILEPATH = os.path.join(OBSIDIAN_FOLDER, FILENAME)
 ERROR_FILENAME = f"errors_{INDEX_COUNTER}"
 # MEDIA_DIR = get_media()
@@ -95,7 +97,7 @@ def parse_back(back_text):
             continue
         item = item.strip()
         if "![[" in item:
-            text_in_row = item.split('[[')[0]
+            text_in_row = item.split('![[')[0]
             if text_in_row:
                 li_item = f"<li>{text_in_row}</li>"
                 if li_item != "!":
