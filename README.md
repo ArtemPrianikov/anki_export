@@ -2,6 +2,9 @@
 # Anki Markdown Importer
 
 Easily transform structured markdown files into Anki decks.
+Template for the text:
+"Front:"
+"Back:"
 
 ## Features
 
