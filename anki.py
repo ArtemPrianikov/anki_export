@@ -7,7 +7,7 @@ from argparse import ArgumentParser
 
 OBSIDIAN_FOLDER = "/Volumes/obs/notes/knowledge"
 OBSIDIAN_FILES = "/Volumes/obs/notes/files"
-DECK_NAME = 'mystat2'
+DECK_NAME = 'GPT'
 
 parser = ArgumentParser('anki automator')
 parser.add_argument('-d', '--debug', help='debug mode, does not insert new flashcards to decks, just simulates', action = 'store_true')
@@ -22,10 +22,16 @@ STARTER = 0 # args.start
 LIMITER = 1000 # args.end06. Commonly Used Hypothesis Tests. Formulas and Examples
 DEBUG_MODE = False # args.debug
 # INDEX_COUNTER = "09. Looking for Links (Correlation and Regression)" # args.index
-INDEX_COUNTER = "02" # args.index
+INDEX_COUNTER = "01" # args.index
 # FILENAME = f"Statistic flashcards-{INDEX_COUNTER}.md"
-FILENAME = f"Probability-{INDEX_COUNTER}.md"
+# FILENAME = f"Probability-{INDEX_COUNTER}.md"
+# FILENAME = f"DS flashcards-{INDEX_COUNTER}.md"
+# FILENAME = f"SQL_{INDEX_COUNTER}.md"
+FILENAME = f"GPT_{INDEX_COUNTER}.md"
+# FILENAME = f"Sobes_tasks.txt"
+# FILENAME = f"ML-02{INDEX_COUNTER}.md"
 FILEPATH = os.path.join(OBSIDIAN_FOLDER, FILENAME)
+# FILEPATH = f"Sobes_tasks.txt"
 ERROR_FILENAME = f"errors_{INDEX_COUNTER}"
 # MEDIA_DIR = get_media()
 # print(f'{MEDIA_DIR=}')
